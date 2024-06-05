@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts from google -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='Home.css') }}">
+    
+</head>
+<body>
+  
+    
+<header class="sticky">
+    <div class="logo">
+        <a href="#">
+            <h1>yog sprit</h1> 
+        </a>
+    </div>
+            
+    <nav class="navbar">
+        <ul>
+            
+            <li><a href="services">Services</a></li>
+            <li><a href="/about_us">About US</a></li>
+            <li><a href="session.php">session</a></li>
+            <li><a href="/index">index</a></li>
+        </ul>
+
+        <a href="login.php">
+            <button class="btn-signin">sign-in</button>
+        </a>
+    </nav>
+
+</header>
+<div class="titles">
+    <p> There's a natural way to <br>feel healthy and happy </p>       
+</div>
+
+<script src="home.js"></script>
+</html>
+</body>

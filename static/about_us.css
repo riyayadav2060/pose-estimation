@@ -1,0 +1,27 @@
+
+body{
+    background-image: url('../static/img/new.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    font-style: italic;
+    font-size: large;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+
+

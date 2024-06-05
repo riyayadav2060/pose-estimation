@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;;
+
+}
+button{
+    cursor: pointer;
+}
+
+body {
+    background-image: url('../static/img/home2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+  }
+  
+  header{
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    overflow: hidden;
+}
+
+.sticky{
+    background: whitesmoke;
+    transition: all 1s ease;
+}
+
+.logo a h1{
+   margin: 0 0 0 50px;
+   font-style: italic;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    margin-top: 5px;
+    padding:0 20px;
+    font-size: 25px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+}
+.navbar ul li::after{
+    content: "";
+    border: 0px solid yellowgreen;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    transition: 0.3s;
+    border-radius: 50%;
+    opacity: 2px;
+}
+.btn-signin {
+  padding: 0.6em 2em;
+  margin-right: 50px;
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  background: #111;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover,
+ul li a:active {
+    color: pink(73, 237, 103);
+    transition: 0.5s;
+}
+
+.titles{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+    font-style: italic;
+    padding-right: 150px;
+}
+.titles p {
+    margin-block-end: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+
+
